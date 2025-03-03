@@ -19,20 +19,24 @@ A Laravel API application for managing delivery points with live weather data in
 
 ## GitHub Repository
 
-You can find the complete code in the GitHub repository. If you're setting up the repository for the first time:
+You need to create a GitHub repository first:
 
-1. Create a new repository on GitHub
-2. Initialize Git in your local project:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin https://github.com/yourusername/logistics-delivery-points.git
-   git push -u origin main
-   ```
+1. Go to [GitHub](https://github.com/) and sign in
+2. Click the "+" icon in the top right corner and select "New repository"
+3. Name your repository (e.g., "logistics-delivery-points-tracker")
+4. Add a description (optional)
+5. Choose public or private visibility
+6. Click "Create repository"
 
-Once set up, you can share this URL with others: https://github.com/yourusername/logistics-delivery-points
+Then, connect your local repository to GitHub:
+
+```bash
+# From your project directory
+git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
+git push -u origin main
+```
+
+Replace `YOUR-USERNAME` with your GitHub username and `YOUR-REPOSITORY-NAME` with the name you gave your repository.
 
 ## Setup Instructions
 
